@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b537d6f-324b-4737-8bc8-b3cfc3f88e6a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="XHTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZJaq2DuHuhLQIb6kvlJmXA0ciS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="XHTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="JUnit.MyArrayListTest">
+    <configuration name="CandyBag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CandyBag" />
+      <module name="lab3_exercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Main" />
+      <module name="lab3_bonus" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JBoss 17.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 17.0.0.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pao-1.0-SNAPSHOT" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : ro.pao : pao-1.0-SNAPSHOT.war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50198" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : ro.pao : pao-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="MyArrayListTest" type="JUnit" factoryName="JUnit">
+      <module name="lab3_bonus" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyArrayListTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="proiect" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="proiect" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.CandyBag" />
+      <item itemvalue="JBoss Server.JBoss 17.0.0.Final" />
+      <item itemvalue="JUnit.MyArrayListTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CandyBag" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.11374598" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b537d6f-324b-4737-8bc8-b3cfc3f88e6a" name="Default Changelist" comment="" />
+      <created>1584559838126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584559838126</updated>
+      <workItem from="1584559840748" duration="1849000" />
+      <workItem from="1584561702744" duration="66000" />
+      <workItem from="1584561780699" duration="56000" />
+      <workItem from="1584561847838" duration="2815000" />
+      <workItem from="1584601668193" duration="1292000" />
+      <workItem from="1584609137394" duration="788000" />
+      <workItem from="1584907421379" duration="10716000" />
+      <workItem from="1584983332035" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1010" y="123" width="546" height="804" key="#JBoss_17.0.0.Final" timestamp="1584609322591">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1010" y="123" width="546" height="804" key="#JBoss_17.0.0.Final/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1584609322591" />
+    <state x="734" y="181" width="1092" height="853" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584916593997">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="734" y="181" width="1092" height="853" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1584916593997" />
+    <state x="1037" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1584916956640">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1037" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1584916956640" />
+    <state x="1009" y="392" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584916581432">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1009" y="392" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1584916581432" />
+    <state x="872" y="184" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1584560255847">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="872" y="184" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1584560255847" />
+    <state x="1108" y="435" width="368" height="179" key="Github.CreateGistDialog" timestamp="1584561987201">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1108" y="435" width="368" height="179" key="Github.CreateGistDialog/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1584561987201" />
+    <state width="2517" height="264" key="GridCell.Tab.0.bottom" timestamp="1584918146096">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2517" height="264" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1584918146096" />
+    <state width="2517" height="264" key="GridCell.Tab.0.center" timestamp="1584918146096">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2517" height="264" key="GridCell.Tab.0.center/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1584918146096" />
+    <state width="2517" height="264" key="GridCell.Tab.0.left" timestamp="1584918146096">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2517" height="264" key="GridCell.Tab.0.left/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1584918146096" />
+    <state width="2517" height="264" key="GridCell.Tab.0.right" timestamp="1584918146096">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2517" height="264" key="GridCell.Tab.0.right/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1584918146096" />
+    <state x="781" y="168" key="SettingsEditor" timestamp="1584915319596">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="781" y="168" key="SettingsEditor/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1584915319596" />
+    <state x="662" y="90" key="new project wizard" timestamp="1584912640006">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="662" y="90" key="new project wizard/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1584912640006" />
+  </component>
+</project>
