@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<f:view locale="ro" xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:h="http://java.sun.com/jsf/html"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:p="http://primefaces.org/ui">
+    <html id="html">
+    <h:head id="head">
+        <link rel="stylesheet" href="#{request.contextPath}/resources/css/bootstrap.min.css"/>
+        <script src="#{request.contextPath}/resources/js/jquery.min.js"></script>
+        <script src="#{request.contextPath}/resources/js/bootstrap.min.js"></script>
+        <title><ui:insert name="title">Exchange house management system</ui:insert></title>
+        <link rel="shortcut icon" href="#{request.contextPath}/resources/images/favicon.ico" type="image/x-icon"/>
+        <link href="#{request.contextPath}/resources/css/style.css" rel="stylesheet"/>
+        <ui:insert name="header"/>
+    </h:head>
+    <h:body id="page-top">
+        <div class="main-container">
+            <header>
+                <div class="container-fluid">
+                    <div class="jumbotron">
+                        <h1>Exchange house management system</h1>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <ui:insert name="basic"/>
+            </main>
+            <footer>
+                <ui:include src="containers/rate_table.xhtml"/>
+            </footer>
+        </div>
+    </h:body>
+    </html>
+</f:view>
