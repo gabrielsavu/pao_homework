@@ -24,20 +24,25 @@ come with the java database connectivity driver for it, so no need to worry abou
 ## What's inside so far?
 
 ### Entities:
-![](https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png) *BasicEntity*
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png" width="15" height="15"/> BasicEntity<br/>
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> ExchangeRate<br/>
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> Transaction<br/>
 
-![](https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png) *ExchangeRate* 
-
-![](https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png) *Transaction*
+###Static meta model
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png" width="15" height="15"/> ExchangeRate_<br/>
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png" width="15" height="15"/> BasicEntity_<br/>
 
 ### EJBs:
-*ExchangeRateEjb*
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> ExchangeRateEjb
 
-### DTOs:
-*ExchangeRateTo, TransactionTo*
+### TOs:
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> ExchangeRateTo<br/>
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> TransactionTo<br/>
 
 ### Managed Beans:
-*ExchangeRateBean*
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> ExchangeRateBean
 
 ### Utils:
-*App, UtilDate, UtilToBuild*
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> App<br/>
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png" width="15" height="15"/> UtilDate<br/>
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png" width="15" height="15"/> UtilToBuild<br/>
