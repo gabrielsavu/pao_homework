@@ -28,7 +28,7 @@ come with the java database connectivity driver for it, so no need to worry abou
 <img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> ExchangeRate<br/>
 <img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> Transaction<br/>
 
-###Static meta model
+### Static meta model
 <img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png" width="15" height="15"/> ExchangeRate_<br/>
 <img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png" width="15" height="15"/> BasicEntity_<br/>
 
