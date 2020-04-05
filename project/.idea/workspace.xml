@@ -2,93 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="148b8724-aa0d-47b6-99f7-b86ffb5f1dde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Bookstore/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task/Task.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task/src/main/java/CounterOutTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task/src/main/java/OutTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task/src/main/java/RandomOutTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task/src/main/java/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/project.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/constants/EnumApplicationCurrency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/dto/ExchangeRateTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/dto/TransactionTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/entities/BasicEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/entities/ExchangeRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/entities/ExchangeRate_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/entities/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/entities/Transaction_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/mngbean/ExchangeRateBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/utils/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/utils/ExchangeRateEjb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/utils/UtilDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/utils/UtilToBuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jboss-ejb3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jboss-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/templates/containers/rate_table.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/templates/default.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bookstore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bookstore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_bonus/lab3_bonus.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_bonus/target/classes/META-INF/lab3_bonus.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_bonus/target/classes/arrays/MyArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_bonus/target/test-classes/MyArrayListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_exercises/lab3_exercises.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_exercises/target/classes/CandyBag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_exercises/target/classes/CandyBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_exercises/target/classes/Heidi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_exercises/target/classes/Lindt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_exercises/target/classes/Milka.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/pao-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +179,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -291,7 +206,7 @@
       <workItem from="1585853737502" duration="136000" />
       <workItem from="1585853901207" duration="7450000" />
       <workItem from="1585937057463" duration="13735000" />
-      <workItem from="1586002369880" duration="25161000" />
+      <workItem from="1586002369880" duration="25665000" />
     </task>
     <servers />
   </component>
