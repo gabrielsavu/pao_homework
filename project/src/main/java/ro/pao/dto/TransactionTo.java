@@ -1,5 +1,6 @@
 package ro.pao.dto;
 
+import ro.pao.entities.Client;
 import ro.pao.entities.ExchangeRate;
 
 import java.util.Date;
@@ -11,6 +12,8 @@ public class TransactionTo {
     private Date date;
 
     private ExchangeRate exchangeRate;
+
+    private Client client;
 
     public Long getId() {
         return id;
@@ -34,5 +37,13 @@ public class TransactionTo {
 
     public void setExchangeRate(ExchangeRate exchangeRate) {
         this.exchangeRate = exchangeRate;
+    }
+
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
     }
 }

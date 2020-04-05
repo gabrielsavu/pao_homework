@@ -14,6 +14,8 @@ public class Transaction extends BasicEntity {
 
     private ExchangeRate exchangeRate;
 
+    private Client client;
+
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_transaction")
     public Long getId() {
@@ -34,7 +36,7 @@ public class Transaction extends BasicEntity {
         this.date = date;
     }
 
-    @OneToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "exchange_rate_id", nullable = false, foreignKey = @ForeignKey(name = "fk_exchange_rate"))
     public ExchangeRate getExchangeRate() {
         return exchangeRate;
@@ -42,5 +44,15 @@ public class Transaction extends BasicEntity {
 
     public void setExchangeRate(ExchangeRate exchangeRate) {
         this.exchangeRate = exchangeRate;
+    }
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "client_id", foreignKey = @ForeignKey(name = "fk_client"))
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
     }
 }

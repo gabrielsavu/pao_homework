@@ -2,9 +2,8 @@ package ro.pao.mngbean;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ro.pao.constants.EnumApplicationCurrency;
 import ro.pao.dto.ExchangeRateTo;
-import ro.pao.utils.ExchangeRateEjb;
+import ro.pao.ejbs.ExchangeRateEjb;
 import ro.pao.utils.UtilDate;
 
 import javax.ejb.EJB;
