@@ -1,9 +1,9 @@
-#Exchange house management system
+# Exchange house management system
 
-##What's the objective of this project?
+## What's the objective of this project?
 To create a software for an exchange house that can be use to keep track of transactions and see real time exchange rates.
 
-##Architecture
+## Architecture
 It's a Java EE web application.
 
 **Technologies:**
@@ -19,19 +19,19 @@ come with the java database connectivity driver for it, so no need to worry abou
 *JavaServer Faces with PrimeFaces*
 
 
-##What's inside so far?
+## What's inside so far?
 
-###Entities:
+### Entities:
 *ExchangeRate, Transaction**
 
-###EJBs:
+### EJBs:
 *ExchangeRateEjb*
 
-###DTOs:
+### DTOs:
 *ExchangeRateTo, TransactionTo*
 
-###Managed Beans:
+### Managed Beans:
 *ExchangeRateBean*
 
-###Utils:
+### Utils:
 *App, UtilDate, UtilToBuild*
