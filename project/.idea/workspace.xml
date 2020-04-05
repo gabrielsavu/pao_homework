@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="148b8724-aa0d-47b6-99f7-b86ffb5f1dde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/dto/ClientTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/ejbs/ClientEjb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/ejbs/TransactionEjb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/entities/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/entities/Client_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/uml.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/pao/dto/TransactionTo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ro/pao/dto/TransactionTo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/pao/entities/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ro/pao/entities/Transaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/pao/entities/Transaction_.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ro/pao/entities/Transaction_.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/pao/mngbean/ExchangeRateBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ro/pao/mngbean/ExchangeRateBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/pao/utils/ExchangeRateEjb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/project-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/project-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/pao/dto/TransactionTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/pao/dto/TransactionTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/pao/entities/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/pao/entities/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/pao/entities/Transaction_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/pao/entities/Transaction_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/pao/mngbean/ExchangeRateBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/pao/mngbean/ExchangeRateBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/pao/utils/ExchangeRateEjb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/pao/ejbs/ExchangeRateEjb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/pao/entities/Client_.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ro/pao/entities/Client_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/pao/entities/Client_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/pao/entities/Client_.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +213,7 @@
       <workItem from="1585853901207" duration="7450000" />
       <workItem from="1585937057463" duration="13735000" />
       <workItem from="1586002369880" duration="31236000" />
-      <workItem from="1586088956359" duration="10057000" />
+      <workItem from="1586088956359" duration="10496000" />
     </task>
     <servers />
   </component>
@@ -257,33 +237,33 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1750" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1586095659367" />
-    <state x="1288" y="340" key="FileChooserDialogImpl" timestamp="1586100772602">
+    <state x="1288" y="340" key="FileChooserDialogImpl" timestamp="1586102022434">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="1288" y="340" key="FileChooserDialogImpl/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1586100772602" />
+    <state x="1288" y="340" key="FileChooserDialogImpl/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1586102022434" />
     <state x="1096" y="419" key="Github.CreateGistDialog" timestamp="1586026088588">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1096" y="419" key="Github.CreateGistDialog/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1586026088588" />
-    <state width="2258" height="313" key="GridCell.Tab.0.bottom" timestamp="1586100123876">
+    <state width="2258" height="313" key="GridCell.Tab.0.bottom" timestamp="1586101875403">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2258" height="313" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1586100123876" />
+    <state width="2258" height="313" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1586101875403" />
     <state width="1677" height="313" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1586033366418" />
-    <state width="2258" height="313" key="GridCell.Tab.0.center" timestamp="1586100123876">
+    <state width="2258" height="313" key="GridCell.Tab.0.center" timestamp="1586101875403">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2258" height="313" key="GridCell.Tab.0.center/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1586100123876" />
+    <state width="2258" height="313" key="GridCell.Tab.0.center/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1586101875403" />
     <state width="1677" height="313" key="GridCell.Tab.0.center/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1586033366418" />
-    <state width="2258" height="313" key="GridCell.Tab.0.left" timestamp="1586100123876">
+    <state width="2258" height="313" key="GridCell.Tab.0.left" timestamp="1586101875403">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2258" height="313" key="GridCell.Tab.0.left/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1586100123876" />
+    <state width="2258" height="313" key="GridCell.Tab.0.left/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1586101875403" />
     <state width="1677" height="313" key="GridCell.Tab.0.left/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1586033366418" />
-    <state width="2258" height="313" key="GridCell.Tab.0.right" timestamp="1586100123876">
+    <state width="2258" height="313" key="GridCell.Tab.0.right" timestamp="1586101875403">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2258" height="313" key="GridCell.Tab.0.right/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1586100123876" />
+    <state width="2258" height="313" key="GridCell.Tab.0.right/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1586101875403" />
     <state width="1677" height="313" key="GridCell.Tab.0.right/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1586033366418" />
     <state x="781" y="167" key="SettingsEditor" timestamp="1586100099103">
       <screen x="0" y="0" width="2560" height="1050" />

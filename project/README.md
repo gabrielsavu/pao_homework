@@ -27,17 +27,23 @@ come with the java database connectivity driver for it, so no need to worry abou
 <img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png" width="15" height="15"/> BasicEntity<br/>
 <img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> ExchangeRate<br/>
 <img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> Transaction<br/>
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> Client<br/>
 
 ### Static meta models
 <img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png" width="15" height="15"/> ExchangeRate_<br/>
-<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png" width="15" height="15"/> BasicEntity_<br/>
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png" width="15" height="15"/> Transaction_<br/>
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png" width="15" height="15"/> Client_<br/>
 
 ### EJBs:
-<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> ExchangeRateEjb
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> ExchangeRateEjb<br/>
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> TransactionEjb<br/>
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> ClientEjb<br/>
+
 
 ### TOs:
 <img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> ExchangeRateTo<br/>
 <img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> TransactionTo<br/>
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> ClientTo<br/>
 
 ### Managed Beans:
 <img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> ExchangeRateBean
@@ -46,3 +52,10 @@ come with the java database connectivity driver for it, so no need to worry abou
 <img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png" width="15" height="15"/> App<br/>
 <img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png" width="15" height="15"/> UtilDate<br/>
 <img src="https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png" width="15" height="15"/> UtilToBuild<br/>
+
+### Constants:
+<img src="https://resources.jetbrains.com/help/img/idea/2019.3/icons.nodes.enum@2x.png" width="15" height="15"/> EnumApplicationCurrency<br/>
+
+## UML Diagram:
+
+![](uml/uml.png)
