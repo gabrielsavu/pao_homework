@@ -24,11 +24,11 @@ come with the java database connectivity driver for it, so no need to worry abou
 ## What's inside so far?
 
 ### Entities:
-[](https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png) *BasicEntity*
+![](https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.abstractClass@2x.png) *BasicEntity*
 
-[](https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png) *ExchangeRate* 
+![](https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png) *ExchangeRate* 
 
-[](https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png) *Transaction*
+![](https://resources.jetbrains.com/help/img/idea/2019.3/Groovy.icons.groovy.class@2x.png) *Transaction*
 
 ### EJBs:
 *ExchangeRateEjb*
