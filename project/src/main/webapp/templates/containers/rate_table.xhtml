@@ -8,18 +8,16 @@
     <f:metadata>
         <f:event type="preRenderView" listener="#{exchangeRateBean.actionRenderView}"/>
     </f:metadata>
+    <p:dataTable var="item" value="#{exchangeRateBean.items}"
+                 rendered="#{exchangeRateBean.items ne null}"
+                 styleClass="table" rowClasses="rowOdd,rowEven">
+        <p:column headerText="Currency" width="120">
+            <h:outputText value="#{item.reference}"/>
+        </p:column>
 
-    <div class="container-fluid">
-        <p:dataTable var="item" value="#{exchangeRateBean.items}" rendered="#{exchangeRateBean.items ne null}" styleClass="table" rowClasses="rowOdd,rowEven">
-            <p:column headerText="Currency" width="120">
-                <h:outputText value="#{item.reference}" />
-            </p:column>
+        <p:column headerText="Rate" width="120">
+            <h:outputText value="#{item.rate}"/>
+        </p:column>
 
-            <p:column headerText="Rate" width="120">
-                <h:outputText value="#{item.rate}" />
-            </p:column>
-
-        </p:dataTable>
-
-    </div>
+    </p:dataTable>
 </ui:composition>

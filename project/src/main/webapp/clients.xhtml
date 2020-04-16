@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<ui:composition template="templates/default.xhtml">
+    <ui:define name="basic">
+        <div class="container-fluid">
+            <div class="row p-2">
+                <a class="btn btn-link text-primary hBack">Back</a>
+            </div>
+            <div class="row p-2">
+                <h:form id="form">
+                    <p:tabView>
+                        <p:tab title="List of clients">
+                            <h:panelGrid columns="2" cellpadding="10">
+                                <p:dataTable value="#{clientBean.items}" var="item"
+                                             styleClass="table" rowClasses="rowOdd,rowEven" paginator="true"
+                                             id="tbl" multiViewState="true" lazy="true"
+                                             paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}">
+                                    <p:column headerText="ID" width="120">
+                                        <h:outputText value="#{item.id}"/>
+                                    </p:column>
+
+                                    <p:column headerText="First name" width="120">
+                                        <h:outputText value="#{item.firstName}"/>
+                                    </p:column>
+
+                                    <p:column headerText="Last name" width="120">
+                                        <h:outputText value="#{item.lastName}"/>
+                                    </p:column>
+
+                                </p:dataTable>
+                            </h:panelGrid>
+                        </p:tab>
+                        <p:tab title="Add client">
+                            <h:panelGrid columns="2" cellpadding="10">
+                                <h:outputLabel for="firstname" value="First name:" style="font-weight:bold"/>
+                                <p:inputText id="firstname" value="#{clientBean.item.firstName}"/>
+                                <h:outputLabel for="lastname" value="Last name:" style="font-weight:bold"/>
+                                <p:inputText id="lastname" value="#{clientBean.item.lastName}"/>
+
+                                <p:commandButton action="#{clientBean.addUser}" value="Register" update="@this"/>
+                            </h:panelGrid>
+                        </p:tab>
+                    </p:tabView>
+                </h:form>
+            </div>
+        </div>
+    </ui:define>
+</ui:composition>
+</html>

@@ -24,6 +24,8 @@ public class ExchangeRateBean implements Serializable {
 
     private List<ExchangeRateTo> items = new ArrayList<>();
 
+    private Boolean init = false;
+
     @EJB
     private ExchangeRateEjb exchangeRateEjb;
 
@@ -31,11 +33,23 @@ public class ExchangeRateBean implements Serializable {
         logger.debug("actionRenderView() - start");
         items.clear();
         List<ExchangeRateTo> exchangeRates = exchangeRateEjb.findExchangeRate(UtilDate.onlyDate(new Date()), "BNR");
+        if (exchangeRates == null) {
+            return null;
+        }
         if (!exchangeRates.isEmpty()) {
+            init = true;
             items.addAll(exchangeRates);
         }
         logger.debug("actionRenderView() - end");
         return null;
+    }
+
+    public Boolean getInit() {
+        return init;
+    }
+
+    public void setInit(Boolean init) {
+        this.init = init;
     }
 
     public List<ExchangeRateTo> getItems() {

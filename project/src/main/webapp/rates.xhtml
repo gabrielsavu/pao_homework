@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<ui:composition template="templates/default.xhtml">
+    <ui:define name="basic">
+        <div class="container-fluid">
+            <div class="row p-2">
+                <a class="btn btn-link text-primary hBack">Back</a>
+            </div>
+            <div class="row p-2">
+                <h:outputText rendered="#{exchangeRateBean.init eq false}"
+                              value="The table can not be initialized at this time. Try in a few moments."/>
+                <ui:include src="templates/containers/rate_table.xhtml"/>
+            </div>
+        </div>
+    </ui:define>
+</ui:composition>
+</html>

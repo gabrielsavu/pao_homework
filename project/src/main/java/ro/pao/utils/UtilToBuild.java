@@ -1,7 +1,9 @@
 package ro.pao.utils;
 
+import ro.pao.dto.ClientTo;
 import ro.pao.dto.ExchangeRateTo;
 import ro.pao.dto.TransactionTo;
+import ro.pao.entities.Client;
 import ro.pao.entities.ExchangeRate;
 import ro.pao.entities.Transaction;
 
@@ -24,6 +26,15 @@ public abstract class UtilToBuild {
         return dst;
     }
 
+    public static ClientTo buildTo(Client src) {
+        if (src == null) {
+            return null;
+        }
+        ClientTo dst = new ClientTo();
+        copyFrom(src, dst);
+        return dst;
+    }
+
     private static void copyFrom(ExchangeRate src, ExchangeRateTo dst) {
         dst.setId(src.getId());
         dst.setProvider(src.getProvider());
@@ -37,6 +48,12 @@ public abstract class UtilToBuild {
     private static void copyFrom(Transaction src, TransactionTo dst) {
         dst.setId(src.getId());
         dst.setDate(src.getDate());
+    }
+
+    private static void copyFrom(Client src, ClientTo dst) {
+        dst.setId(src.getId());
+        dst.setFirstName(src.getFirstName());
+        dst.setLastName(src.getLastName());
     }
 
 }

@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="#{request.contextPath}/resources/css/bootstrap.min.css"/>
         <script src="#{request.contextPath}/resources/js/jquery.min.js"></script>
         <script src="#{request.contextPath}/resources/js/bootstrap.min.js"></script>
+        <script src="#{request.contextPath}/resources/js/main.js"></script>
         <title><ui:insert name="title">Exchange house management system</ui:insert></title>
         <link rel="shortcut icon" href="#{request.contextPath}/resources/images/favicon.ico" type="image/x-icon"/>
         <link href="#{request.contextPath}/resources/css/style.css" rel="stylesheet"/>
@@ -27,7 +28,9 @@
                 <ui:insert name="basic"/>
             </main>
             <footer>
-                <ui:include src="containers/rate_table.xhtml"/>
+                <p class="text-center">
+                    Proiect PAO - Savu Liviu Gabriel
+                </p>
             </footer>
         </div>
     </h:body>
