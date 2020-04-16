@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="148b8724-aa0d-47b6-99f7-b86ffb5f1dde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/pao/mngbean/ClientBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/clients.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/rates.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/transactions.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/project.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/project.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/project.main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/pao/ejbs/ClientEjb.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ro/pao/ejbs/ClientEjb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/pao/ejbs/ExchangeRateEjb.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ro/pao/ejbs/ExchangeRateEjb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/pao/mngbean/ExchangeRateBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ro/pao/mngbean/ExchangeRateBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ro/pao/utils/UtilToBuild.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ro/pao/utils/UtilToBuild.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/project-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/project-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/pao/ejbs/ClientEjb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/pao/ejbs/ClientEjb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/pao/mngbean/ExchangeRateBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/pao/mngbean/ExchangeRateBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/pao/utils/UtilToBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/pao/utils/UtilToBuild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/containers/rate_table.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/containers/rate_table.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/default.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/default.xhtml" afterDir="false" />
-    </list>
+    <list default="true" id="148b8724-aa0d-47b6-99f7-b86ffb5f1dde" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,8 +205,16 @@
       <workItem from="1586982174085" duration="115000" />
       <workItem from="1586982301433" duration="5212000" />
       <workItem from="1587062722435" duration="2039000" />
-      <workItem from="1587069253103" duration="7000" />
+      <workItem from="1587069253103" duration="49000" />
     </task>
+    <task id="LOCAL-00001" summary="Clients">
+      <created>1587069290559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587069290560</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +222,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Clients" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clients" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="122" width="546" height="806" key="#JBoss_19.0.0.Final" timestamp="1586888452193">
@@ -276,6 +251,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="960" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1586982034913" />
+    <state x="882" y="6" key="CommitChangelistDialog2" timestamp="1587069289062">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="882" y="6" key="CommitChangelistDialog2/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1587069289062" />
     <state x="1288" y="340" key="FileChooserDialogImpl" timestamp="1587065317783">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
