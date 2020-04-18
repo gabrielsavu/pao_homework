@@ -18,7 +18,8 @@
                             <h:panelGrid columns="2" cellpadding="10">
                                 <p:dataTable value="#{clientBean.items}" var="item"
                                              styleClass="table" rowClasses="rowOdd,rowEven" paginator="true"
-                                             id="tbl" multiViewState="true" lazy="true"
+                                             id="tbl" multiViewState="true" lazy="true" rowsPerPageTemplate="50,100,200"
+                                             rows="50"
                                              paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}">
                                     <p:column headerText="ID" width="120">
                                         <h:outputText value="#{item.id}"/>
@@ -37,12 +38,14 @@
                         </p:tab>
                         <p:tab title="Add client">
                             <h:panelGrid columns="2" cellpadding="10">
+
                                 <h:outputLabel for="firstname" value="First name:" style="font-weight:bold"/>
                                 <p:inputText id="firstname" value="#{clientBean.item.firstName}"/>
                                 <h:outputLabel for="lastname" value="Last name:" style="font-weight:bold"/>
                                 <p:inputText id="lastname" value="#{clientBean.item.lastName}"/>
 
-                                <p:commandButton action="#{clientBean.addUser}" value="Register" update="@this"/>
+                                <p:commandButton action="#{clientBean.addUser}" value="Add user" update="@form"
+                                                 ajax="false"/>
                             </h:panelGrid>
                         </p:tab>
                     </p:tabView>

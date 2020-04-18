@@ -10,7 +10,10 @@ import ro.pao.entities.Client;
 import ro.pao.utils.UtilToBuild;
 
 import javax.annotation.PostConstruct;
+import javax.ejb.EJB;
 import javax.enterprise.context.RequestScoped;
+import javax.faces.application.FacesMessage;
+import javax.faces.context.FacesContext;
 import javax.inject.Named;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -34,6 +37,9 @@ public class ClientBean implements Serializable {
 
     @PersistenceContext
     private EntityManager em;
+
+    @EJB
+    private ClientEjb clientEjb;
 
     private LazyClients items;
 
@@ -105,13 +111,11 @@ public class ClientBean implements Serializable {
     @Transactional
     public String addUser() {
         logger.debug("addUser() - start");
-        Client client = new Client();
-        client.setFirstName(item.getFirstName());
-        client.setLastName(item.getLastName());
-        em.persist(client);
-        em.flush();
+        logger.debug("{}", item);
+        Client client = clientEjb.saveClient(item);
+        FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("User added."));
         logger.debug("addUser() - end, userId:{}", client.getId());
-        return null;
+        return "clients.xhtml";
     }
 
     public LazyClients getItems() {

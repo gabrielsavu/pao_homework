@@ -40,6 +40,7 @@ public class ClientEjb implements Serializable {
 
     public Client saveClient(ClientTo item) {
         Client client = new Client();
+        logger.debug("{}", item);
         client.setFirstName(item.getFirstName());
         client.setLastName(item.getLastName());
         em.persist(client);
