@@ -3,6 +3,7 @@ package ro.pao.dto;
 import ro.pao.constants.EnumApplicationCurrency;
 
 import java.util.Date;
+import java.util.Objects;
 
 public class ExchangeRateTo {
     private Long id;
@@ -86,5 +87,21 @@ public class ExchangeRateTo {
                 ", reference=" + reference +
                 ", to=" + to +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ExchangeRateTo that = (ExchangeRateTo) o;
+        return Objects.equals(rate, that.rate) &&
+                Objects.equals(provider, that.provider) &&
+                reference == that.reference &&
+                to == that.to;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(rate, provider, reference, to);
     }
 }

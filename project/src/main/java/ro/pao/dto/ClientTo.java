@@ -3,6 +3,8 @@ package ro.pao.dto;
 public class ClientTo {
     private Long id;
 
+    private String cnp;
+
     private String firstName;
 
     private String lastName;
@@ -13,6 +15,14 @@ public class ClientTo {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getCnp() {
+        return cnp;
+    }
+
+    public void setCnp(String cnp) {
+        this.cnp = cnp;
     }
 
     public String getFirstName() {

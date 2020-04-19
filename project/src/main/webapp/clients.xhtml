@@ -43,6 +43,8 @@
                                 <p:inputText id="firstname" value="#{clientBean.item.firstName}"/>
                                 <h:outputLabel for="lastname" value="Last name:" style="font-weight:bold"/>
                                 <p:inputText id="lastname" value="#{clientBean.item.lastName}"/>
+                                <h:outputLabel for="cnp" value="CNP:" style="font-weight:bold"/>
+                                <p:inputText id="cnp" value="#{clientBean.item.cnp}"/>
 
                                 <p:commandButton action="#{clientBean.addUser}" value="Add user" update="@form"
                                                  ajax="false"/>

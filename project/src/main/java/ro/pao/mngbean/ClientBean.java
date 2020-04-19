@@ -110,8 +110,7 @@ public class ClientBean implements Serializable {
 
     @Transactional
     public String addUser() {
-        logger.debug("addUser() - start");
-        logger.debug("{}", item);
+        logger.debug("addUser() - start, item : {}", item);
         Client client = clientEjb.saveClient(item);
         FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("User added."));
         logger.debug("addUser() - end, userId:{}", client.getId());

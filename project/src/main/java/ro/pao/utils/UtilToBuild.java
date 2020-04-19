@@ -48,10 +48,12 @@ public abstract class UtilToBuild {
     private static void copyFrom(Transaction src, TransactionTo dst) {
         dst.setId(src.getId());
         dst.setDate(src.getDate());
+        dst.setAmount(src.getAmount());
     }
 
     private static void copyFrom(Client src, ClientTo dst) {
         dst.setId(src.getId());
+        dst.setCnp(src.getCnp());
         dst.setFirstName(src.getFirstName());
         dst.setLastName(src.getLastName());
     }

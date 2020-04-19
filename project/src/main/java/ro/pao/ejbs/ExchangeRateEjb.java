@@ -104,7 +104,7 @@ public class ExchangeRateEjb implements Serializable {
      * A schedule method that runs from time to time.
      * It checks if the database is up to date with the exchange rate.
      */
-    @Schedule(hour = "*", minute = "*/1", persistent = false)
+    @Schedule(hour = "*", minute = "*/30", persistent = false)
     @Transactional
     public void importExchangeRate() {
         logger.debug("importExchangeRate() - start");

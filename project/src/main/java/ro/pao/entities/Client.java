@@ -9,6 +9,8 @@ public class Client extends BasicEntity {
 
     private Long id;
 
+    private String cnp;
+
     private String firstName;
 
     private String lastName;
@@ -21,6 +23,15 @@ public class Client extends BasicEntity {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    @Column(nullable = false, unique = true)
+    public String getCnp() {
+        return cnp;
+    }
+
+    public void setCnp(String cnp) {
+        this.cnp = cnp;
     }
 
     @Column(nullable = false)

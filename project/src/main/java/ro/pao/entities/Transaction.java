@@ -16,6 +16,8 @@ public class Transaction extends BasicEntity {
 
     private Client client;
 
+    private Double amount;
+
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_transaction")
     public Long getId() {
@@ -54,5 +56,14 @@ public class Transaction extends BasicEntity {
 
     public void setClient(Client client) {
         this.client = client;
+    }
+
+    @Column(nullable = false)
+    public Double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(Double amount) {
+        this.amount = amount;
     }
 }
