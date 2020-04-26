@@ -67,4 +67,29 @@ public class TransactionTo {
                 ", amount=" + amount +
                 '}';
     }
+
+    public String asCsvEntry() {
+        return id +
+                "," +
+                date +
+                "," +
+                exchangeRate +
+                "," +
+                client +
+                "," +
+                amount +
+                "\n";
+    }
+
+    static public String asCsvHeader() {
+        return "id" +
+                "," +
+                "date" +
+                "," +
+                "exchangeRate" +
+                "," +
+                "client" +
+                "," +
+                "amount\n";
+    }
 }

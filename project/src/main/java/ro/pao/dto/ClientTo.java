@@ -1,5 +1,7 @@
 package ro.pao.dto;
 
+import ro.pao.entities.Client;
+
 public class ClientTo {
     private Long id;
 
@@ -45,8 +47,30 @@ public class ClientTo {
     public String toString() {
         return "ClientTo{" +
                 "id=" + id +
+                ", cnp='" + cnp + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 '}';
+    }
+
+    public String asCsvEntry() {
+        return id +
+                "," +
+                cnp +
+                "," +
+                firstName +
+                "," +
+                lastName +
+                "\n";
+    }
+
+    static public String asCsvHeader() {
+        return "id" +
+                "," +
+                "cnp" +
+                "," +
+                "firstName" +
+                "," +
+                "lastName\n";
     }
 }

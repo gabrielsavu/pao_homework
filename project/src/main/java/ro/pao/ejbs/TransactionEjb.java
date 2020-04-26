@@ -15,6 +15,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 @Stateless
 public class TransactionEjb implements Serializable {
@@ -31,5 +32,14 @@ public class TransactionEjb implements Serializable {
         em.persist(transaction);
         em.flush();
         return transaction;
+    }
+
+    public String asCsv(List<TransactionTo> rows) {
+        StringBuilder sb = new StringBuilder();
+        sb.append(TransactionTo.asCsvHeader());
+        for (TransactionTo row : rows) {
+            sb.append(row.asCsvEntry());
+        }
+        return sb.toString();
     }
 }

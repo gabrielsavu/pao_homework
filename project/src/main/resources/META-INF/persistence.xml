@@ -18,8 +18,6 @@
          <property name="hibernate.order_updates" value="true" />
          <property name="hibernate.cache.use_second_level_cache" value="true" />
          <property name="hibernate.cache.use_query_cache" value="true" />
-         <property name="hibernate.types.jackson.object.mapper"
-                   value="ro.gs1.codaloc.util.CustomObjectMapperSupplier" />
       </properties>
    </persistence-unit>
 </persistence>

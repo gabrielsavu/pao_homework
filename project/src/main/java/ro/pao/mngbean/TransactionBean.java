@@ -12,15 +12,18 @@ import ro.pao.entities.Client;
 import ro.pao.entities.Client_;
 import ro.pao.entities.ExchangeRate;
 import ro.pao.entities.Transaction;
+import ro.pao.utils.DataUpdateEvent;
 import ro.pao.utils.UtilDate;
 import ro.pao.utils.UtilToBuild;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.EJB;
 import javax.enterprise.context.ConversationScoped;
+import javax.enterprise.event.Event;
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
 import javax.faces.model.SelectItem;
+import javax.inject.Inject;
 import javax.inject.Named;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -53,6 +56,9 @@ public class TransactionBean implements Serializable {
 
     @EJB
     private ExchangeRateEjb exchangeRateEjb;
+
+    @Inject
+    private Event<DataUpdateEvent> dataUpdatedEvent;
 
     private LazyTransactions items;
 
@@ -169,6 +175,7 @@ public class TransactionBean implements Serializable {
         }
         transactionEjb.saveTransaction(item);
         logger.debug("addTransaction() - end");
+        dataUpdatedEvent.fire(new DataUpdateEvent());
         return null;
     }
 

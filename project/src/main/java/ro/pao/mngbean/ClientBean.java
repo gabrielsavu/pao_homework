@@ -7,13 +7,16 @@ import org.slf4j.LoggerFactory;
 import ro.pao.dto.ClientTo;
 import ro.pao.ejbs.ClientEjb;
 import ro.pao.entities.Client;
+import ro.pao.utils.DataUpdateEvent;
 import ro.pao.utils.UtilToBuild;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.EJB;
 import javax.enterprise.context.RequestScoped;
+import javax.enterprise.event.Event;
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
+import javax.inject.Inject;
 import javax.inject.Named;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -40,6 +43,9 @@ public class ClientBean implements Serializable {
 
     @EJB
     private ClientEjb clientEjb;
+
+    @Inject
+    private Event<DataUpdateEvent> dataUpdatedEvent;
 
     private LazyClients items;
 
@@ -114,6 +120,7 @@ public class ClientBean implements Serializable {
         Client client = clientEjb.saveClient(item);
         FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("User added."));
         logger.debug("addUser() - end, userId:{}", client.getId());
+        dataUpdatedEvent.fire(new DataUpdateEvent());
         return "clients.xhtml";
     }
 

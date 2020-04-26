@@ -89,6 +89,39 @@ public class ExchangeRateTo {
                 '}';
     }
 
+    public String asCsvEntry() {
+        return id +
+                "," +
+                rate +
+                "," +
+                provider +
+                "," +
+                publishingDate +
+                "," +
+                queryDate +
+                "," +
+                reference +
+                "," +
+                to +
+                "\n";
+    }
+
+    static public String asCsvHeader() {
+        return "id" +
+                "," +
+                "rate" +
+                "," +
+                "provider" +
+                "," +
+                "publishingDate" +
+                "," +
+                "queryDate" +
+                "," +
+                "reference" +
+                "," +
+                "to\n";
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

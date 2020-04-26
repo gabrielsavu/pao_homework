@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ro.pao.constants.EnumApplicationCurrency;
 import ro.pao.dto.ExchangeRateTo;
+import ro.pao.dto.TransactionTo;
 import ro.pao.entities.ExchangeRate;
 import ro.pao.entities.ExchangeRate_;
 import ro.pao.utils.UtilDate;
@@ -149,5 +150,14 @@ public class ExchangeRateEjb implements Serializable {
             logger.error("importExchangeRate() - Exception: ", e);
         }
         logger.debug("importExchangeRate() - end");
+    }
+
+    public String asCsv(List<ExchangeRateTo> rows) {
+        StringBuilder sb = new StringBuilder();
+        sb.append(ExchangeRateTo.asCsvHeader());
+        for (ExchangeRateTo row : rows) {
+            sb.append(row.asCsvEntry());
+        }
+        return sb.toString();
     }
 }
